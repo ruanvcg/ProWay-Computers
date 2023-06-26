@@ -1,27 +1,32 @@
-# ProwayComputers
+<h1 align="center">ProwayComputers</p>
+<img align="center" src="https://i.ibb.co/9qc1G6p/pagegif1.gif" width="700px">
+<img align="center" src="https://i.ibb.co/9qc1G6p/pagegif2.gif" width="700px">
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 15.0.5.
+## 💻 Tecnologias
 
-## Development server
+- Angular;
+- HTML;
+- CSS;
+- TS;
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+## 🤝 Como contribuir?
 
-## Code scaffolding
+```bash
+    # 1. Fork the project;
+    # 2. Clone your forked project to you workspace;
+    # 3. Before your changes, realize the pull request;
+```
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
-
-## Build
-
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
-
-## Running unit tests
-
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
-
-## Running end-to-end tests
-
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+## 👨‍💻 Autores
+<table>
+  <tr>
+    <td align="center">
+      <a href="https://github.com/ruanvcg">
+        <img src="https://avatars.githubusercontent.com/u/62728646?v=4" width="100px;" alt="Foto do Ruan Victor no GitHub"/><br>
+        <sub>
+          <b>Ruan Victor</b>
+        </sub>
+      </a>
+    </td>
+  </tr>
+</table>
