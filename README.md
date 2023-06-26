@@ -1,6 +1,6 @@
 <h1 align="center">ProwayComputers</p>
-<img align="center" src="https://i.ibb.co/9qc1G6p/pagegif1.gif" width="700px">
-<img align="center" src="https://i.ibb.co/9qc1G6p/pagegif2.gif" width="700px">
+<img align="center" src="pagegif1.gif" width="700px">
+<img align="center" src="pagegif2.gif" width="700px">
 
 ## 💻 Tecnologias
 
