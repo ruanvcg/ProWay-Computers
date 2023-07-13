@@ -86,6 +86,12 @@
 }
 
 @media (max-width: 870px) {
+    .main-header {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        column-gap: 40px;
+    }
 
     .main-header__title, .main-header__title--blue, .main-header__title--orange{
         font-size: 2rem;
@@ -98,7 +104,7 @@
     }
     .main-header__menu ul {
         display: flex;
-        justify-content: flex-start;
+        justify-content: center;
     }
 
     .container-menu {
@@ -109,7 +115,7 @@
 
     .search-form{
         
-        justify-content: flex-start;
+        justify-content: center;
     }
     
     .search-form input{

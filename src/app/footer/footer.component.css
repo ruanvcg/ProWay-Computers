@@ -20,7 +20,7 @@
 }
 
 .footer__title {
-    font-size: 1rem;
+    font-size: 1.5rem;
     font-weight: bold;
     color: var(--blue);
     margin-bottom: 5px;
@@ -43,7 +43,11 @@
         font-size: 18px;
         padding: 3rem;
     }
-
+    .footer__title{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
     .footer__container {
         display: flex;
         flex-direction: column;
