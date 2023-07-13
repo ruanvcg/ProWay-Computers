@@ -68,3 +68,16 @@
     filter: brightness(1.1);
     cursor: pointer;
 }
+
+
+@media (max-width: 870px) {
+    .product-list {
+        padding: 40px 0;
+        width: fit-content;    
+        display: flex;
+        gap: 20px;
+        flex-flow: row wrap;  
+        justify-content: center;
+        align-content: center;  
+    }
+}
