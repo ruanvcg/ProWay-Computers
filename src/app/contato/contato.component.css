@@ -1,5 +1,5 @@
 .contact__title {
-    font-size: 44px;
+    font-size: 2rem;
     color: var(--gray);
     font-weight: 700;
     padding: 8px 0;
@@ -41,4 +41,26 @@
 
 .contact-form button:disabled:hover {
     filter: none;
+}
+
+
+@media (max-width: 870px) {
+    .contact__title{
+        margin: 1.5rem;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .contact__container{
+        margin: 1.5rem;
+    }
+
+    .contact__container address{
+        margin:  0 auto;
+    }
+
+    .contact-form button{
+        align-self: center;
+    }
 }

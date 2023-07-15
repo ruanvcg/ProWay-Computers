@@ -75,8 +75,17 @@ input {
 
     .cart-info{
         display: flex;
+        width: 90%;
         flex-direction: column;
         align-items: center;
+    }
+
+    .item-list{
+        width: 100%;
+    }
+
+    img{
+        width: 100%;
     }
 
     .item-list, li{
