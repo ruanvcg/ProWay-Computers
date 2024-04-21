@@ -1,0 +1,27 @@
+<header class="main-header">
+    <h1 class="main-header__title">
+        <span class="main-header__title--blue">ProWay</span><span class="main-header__title--orange">Computers</span>
+    </h1>
+    <div class="container-menu">
+        <nav class="main-header__menu">
+            <ul>
+                <li>
+                    <a routerLink="produtos">Produtos</a>
+                </li>
+                <li>
+                    <a routerLink="carrinho">
+                        Carrinho
+                        <span class="badge-carrinho">{{ carrinhoService.obtemCarrinho().length }}</span>
+                    </a>
+                </li>
+                <li><a routerLink="contato">Contato</a></li>
+                <li><a href="https://github.com/ruanvcg"><i class="fa-brands fa-github"></i></a></li>
+                <li><a href="https://www.linkedin.com/in/ruan-victor-carreiro-gomes-b9202b22b/"><i class="fa-brands fa-linkedin-in"></i></a></li>
+            </ul>
+        </nav>
+        <form class="search-form">
+            <input type="text" name="descricao">
+            <button type="submit"><i class="fa-solid fa-magnifying-glass"></i></button>
+        </form>
+    </div>
+</header>

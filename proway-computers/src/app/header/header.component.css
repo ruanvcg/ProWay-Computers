@@ -1,0 +1,144 @@
+.main-header {    
+    padding: 10px 0px;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    align-items: center;
+    column-gap: 40px;
+}
+
+.main-header__title {    
+    font-size: 4rem;
+    letter-spacing: -1.5px;    
+}
+
+.main-header__title--blue {
+    color: var(--blue);
+    font-size:4rem;
+}
+
+.main-header__title--orange {
+    color: var(--orange);
+    font-size: 4rem;
+}
+
+.main-header__menu ul {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.main-header__menu a {
+    padding: 10px 1.2rem;
+    color: var(--gray);
+    font-weight: 400;
+    font-size: 2rem;
+    text-decoration: none;
+    transition: all .3s ease-in-out;
+}
+
+.main-header__menu a:hover {
+    background-color: var(--blue);
+    color: #fff;
+    cursor: pointer;
+}
+
+.container-menu {
+    display: flex;
+    flex-direction: column;
+    row-gap: 20px;
+    flex: 1;
+}
+
+.badge-carrinho {
+    background-color: var(--dark-blue);
+    padding: 5px 10px;    
+    border-radius: 4px;
+    color: white;
+}
+
+.search-form{
+    height: 4rem;
+    display: flex;
+    
+    justify-content: flex-end;
+}
+
+.search-form input{
+    box-sizing: border-box;
+    height: 3rem;
+    width: 40rem;
+    padding: 28px;
+    background-color: var(--light-gray);
+    color: var(--gray);
+    border: none;
+    transition: all -3s ease-in-out;
+    font-size: 22px;
+}
+
+.search-form button{
+    width: 3rem;
+    height: 3.5rem;
+    background-color: var(--blue);
+    border:none;
+    color: #fff;
+    font-size: 22px;
+}
+
+@media (max-width: 870px) {
+    .main-header {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        column-gap: 40px;
+    }
+
+    .main-header__title, .main-header__title--blue, .main-header__title--orange{
+        font-size: 2rem;
+    }
+
+    .main-header__menu a{
+        padding: 5px 5px;
+        
+        font-size: 1rem;
+    }
+    .main-header__menu ul {
+        display: flex;
+        justify-content: center;
+    }
+
+    .container-menu {
+        display: flex;
+        flex-direction: column;
+        flex: 1;
+    }
+
+    .search-form{
+        
+        justify-content: center;
+    }
+    
+    .search-form input{
+        height: 3rem;
+        width: 15rem;
+    }
+    
+    .search-form button{
+        width: 3rem;
+        height: 3.5rem;
+        background-color: var(--blue);
+        border:none;
+        color: #fff;
+        font-size: 22px;
+    }
+}
+
+@media (max-width: 1316px) and (min-width: 870px) {
+    .container-menu {
+        margin-top: 1rem;
+        display: flex;
+        align-items: flex-start;
+        justify-content: flex-start;
+        flex: 1;
+    }
+}
